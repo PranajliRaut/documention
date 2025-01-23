@@ -290,25 +290,57 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
   </thead>
   <tbody>
-    <tr><td><@types/react</td><td>^18.2.66</td></tr>
-    <tr><td>@types/react-dom</td><td>^18.2.22</td></tr>
-    <tr><td>@vitejs/plugin-react</td><td>^4.2.1</td></tr>
-    <tr><td>Autoprefixer</td><td>^10.4.19</td></tr>
-    <tr><td>Eslint</td><td>^8.57.0</td></tr>
-    <tr><td>eslint-plugin-react</td><td>^8.57.0</td></tr>
-    <tr><td>eslint-plugin-react-hooks</td><td>^4.6.0</td></tr>
-    <tr><td>eslint-plugin-react-refresh</td><td>^0.4.6</td></tr>
-    <tr><td>Postcss</td><td>^8.4.39</td></tr>
+    <tr id="eslint">
+      <td>eslint</td>
+      <td>^8.57.0</td>
+    </tr>
+    <tr id="vite">
+      <td>Vite</td>
+      <td>^5.3.3</td>
+    </tr>
+    <tr id="autoprefixer">
+      <td>Autoprefixer</td>
+      <td>^10.4.19</td>
+    </tr>
+    <tr id="typescript">
+      <td>typescript</td>
+      <td>^4.7.4</td>
+    </tr>
+    <tr>
+      <td>@types/react</td>
+      <td>^18.2.66</td>
+    </tr>
+    <tr>
+      <td>@types/react-dom</td>
+      <td>^18.2.22</td>
+    </tr>
+    <tr>
+      <td>@vitejs/plugin-react</td>
+      <td>^4.2.1</td>
+    </tr>
+    <tr>
+      <td>eslint-plugin-react</td>
+      <td>^8.57.0</td>
+    </tr>
+    <tr>
+      <td>eslint-plugin-react-hooks</td>
+      <td>^4.6.0</td>
+    </tr>
+    <tr>
+      <td>eslint-plugin-react-refresh</td>
+      <td>^0.4.6</td>
+    </tr>
+    <tr>
+      <td>Postcss</td>
+      <td>^8.4.39</td>
+    </tr>
     <tr id="tailwindcss">
       <td>tailwindcss</td>
       <td>^2.1.2</td>
     </tr>
-    <tr><td>Vite</td><td>^5.3.3</td></tr>
   </tbody>
 </table>
 
-## Usage
-Clone the repository and run the following commands to install the dependencies:
 
 ```bash
 npm install
@@ -336,10 +368,10 @@ npm install
 
 ## DevDependencies
 
-- **eslint**: A linter for identifying and fixing JavaScript issues in the code.
-- **vite**: A fast build tool that serves the app with hot-reloading, improving the development experience.
-- **autoprefixer**: Automatically adds vendor prefixes to CSS rules for compatibility across different browsers.
-- **typescript**: Adds TypeScript support, providing static type checking and improved development experience.
+- **[eslint](#eslint)**: A linter for identifying and fixing JavaScript issues in the code.
+- **[vite](#vite)**: A fast build tool that serves the app with hot-reloading, improving the development experience.
+- **[autoprefixer](#autoprefixer)**: Automatically adds vendor prefixes to CSS rules for compatibility across different browsers.
+- **[typescript](#typescript)**: Adds TypeScript support, providing static type checking and improved development experience.
 
 
 
