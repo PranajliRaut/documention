@@ -250,7 +250,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
   </thead>
   <tbody>
-    <tr><td>[@types/react](#@ant-design/icons)</td><td>^18.2.66</td></tr>
+    <tr><td>@types/react</td><td>^18.2.66</td></tr>
     <tr><td>@types/react-dom</td><td>^18.2.22</td></tr>
     <tr><td>@vitejs/plugin-react</td><td>^4.2.1</td></tr>
     <tr><td>Autoprefixer</td><td>^10.4.19</td></tr>
@@ -274,7 +274,7 @@ npm install
 ## Dependencies Overview
 
 ### Core Dependencies
-- **'@ant-design/icons':** Icons for Ant Design UI components.
+- **[@ant-design/icons](#@ant-design/icons):** Icons for Ant Design UI components.
 - **@emotion/react & @emotion/styled:** CSS-in-JS styling.
 - **@fortawesome/*:** Font Awesome icons for React.
 - **@mui/material:** Material UI framework components.
