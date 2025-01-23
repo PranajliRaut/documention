@@ -624,6 +624,15 @@ const response = await fetch(
 );
 ```
 
+### Key Points:
+- **`fetch`** makes a request to a dynamically constructed URL.
+- **`POST`** is used to send data to the server.
+- **`formDataToSend`** contains the employee data being submitted.
+
+---
+
+
+
 
 
 
