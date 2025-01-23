@@ -278,7 +278,7 @@ npm install
 ## Dependencies Overview
 
 ### Core Dependencies
--  **[@ant-design/icons](#dependencies)**: Provides Ant Design icons for UI components.
+-  **[@ant-design/icons](#ant-designicons)**: Provides Ant Design icons for UI components.
 - **@emotion/react & @emotion/styled**: Used for CSS-in-JS styling, allowing you to style React components directly.
 - **@fortawesome/***: Font Awesome icon library for React, offering scalable vector icons.
 - **@mui/material**: Material UI framework components, enabling easy and consistent design patterns for React apps.
