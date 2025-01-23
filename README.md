@@ -165,7 +165,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
   </thead>
   <tbody>
-    <tr><td>'@ant-design/icons'</td><td>^5.5.2</td></tr>
+    <tr><td>@ant-design/icons</td><td>^5.5.2</td></tr>
     <tr><td>@emotion/react</td><td>^11.13.3</td></tr>
     <tr><td>@emotion/styled</td><td>^11.13.3</td></tr>
     <tr><td>@fortawesome/fontawesome-svg-core</td><td>^11.13.0</td></tr>
@@ -250,7 +250,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
   </thead>
   <tbody>
-    <tr><td>@types/react</td><td>^18.2.66</td></tr>
+    <tr><td>[@types/react](#@ant-design/icons)</td><td>^18.2.66</td></tr>
     <tr><td>@types/react-dom</td><td>^18.2.22</td></tr>
     <tr><td>@vitejs/plugin-react</td><td>^4.2.1</td></tr>
     <tr><td>Autoprefixer</td><td>^10.4.19</td></tr>
