@@ -604,9 +604,24 @@ try {
   toast.error("Error occurred while adding employee data.");
 }
 ```
-![WhatsApp Image 2025-01-23 at 4 09 44 PM](https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a)
+<img src="https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a" width="600" height="auto" />
 
 ```
+# Add Employee API Request and WebSocket Emission
+
+This document explains the steps involved in making a request to the backend API to add an employee, handling the response, and emitting the data to a WebSocket server. It also covers error handling and form resetting.
+
+## 1. Making the API Request
+
+```javascript
+const response = await fetch(
+  `${API_BASE_URL}/add-employee/${employeeId}/${userType}`,
+  {
+    method: "POST",
+    body: formDataToSend,
+  }
+);
+
 
 
 
