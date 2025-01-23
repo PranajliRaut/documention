@@ -275,28 +275,29 @@ npm install
 ## Dependencies Overview
 
 ### Core Dependencies
-- **[@ant-design/icons](#@ant-design/icons):** Icons for Ant Design UI components.
-- **@emotion/react & @emotion/styled:** CSS-in-JS styling.
-- **@fortawesome/*:** Font Awesome icons for React.
-- **@mui/material:** Material UI framework components.
-- **@react-pdf-viewer/core & default-layout:** PDF viewing libraries.
-- **@reduxjs/toolkit:** Simplifies Redux development.
-- **axios:** HTTP client for making API requests.
-- **react:** Main React library for building user interfaces.
-- **react-router-dom:** Routing library for React.
-- **react-toastify:** For toast notifications.
-- **socket.io-client:** Real-time WebSocket communication.
-- **tailwindcss:** Utility-first CSS framework.
+- **@ant-design/icons**: Provides Ant Design icons for UI components.
+- **@emotion/react & @emotion/styled**: Used for CSS-in-JS styling, allowing you to style React components directly.
+- **@fortawesome/***: Font Awesome icon library for React, offering scalable vector icons.
+- **@mui/material**: Material UI framework components, enabling easy and consistent design patterns for React apps.
+- **@react-pdf-viewer/core & default-layout**: Libraries for rendering and displaying PDF documents in React.
+- **@reduxjs/toolkit**: Simplifies Redux development, providing utilities and a standard approach for managing state.
+- **axios**: Promise-based HTTP client for making API requests to communicate with external services.
+- **react**: Main React library for building user interfaces with reusable components.
+- **react-router-dom**: For handling routing in the app, allowing users to navigate between different views.
+- **react-toastify**: Toast notifications for easy feedback to users.
+- **socket.io-client**: Used for real-time WebSocket communication between the client and server.
+- **tailwindcss**: Utility-first CSS framework for building custom designs with minimal effort.
 
 
 
 ---
 
-## DevDependencies Overview
-- **eslint:** Linter for identifying JavaScript patterns.
-- **vite:** Fast build tool for front-end development.
-- **autoprefixer:** Adds vendor prefixes to CSS.
-- **typescript:** TypeScript support for React and Node.js.
+## DevDependencies
+
+- **eslint**: A linter for identifying and fixing JavaScript issues in the code.
+- **vite**: A fast build tool that serves the app with hot-reloading, improving the development experience.
+- **autoprefixer**: Automatically adds vendor prefixes to CSS rules for compatibility across different browsers.
+- **typescript**: Adds TypeScript support, providing static type checking and improved development experience.
 
 
 
