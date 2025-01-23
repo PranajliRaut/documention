@@ -445,6 +445,166 @@ npm install
   "workLocation": "Mumbai Office"
 }
 
+### Add Employee Post Operation:
+
+```javascript
+try {    
+  const response = await fetch(
+    `${API_BASE_URL}/add-employee/${employeeId}/${userType}`,
+    {
+      method: "POST",
+      body: formDataToSend,
+    }
+  );
+  const responseBody = await response.json();
+  console.log("Response Body:", responseBody);
+  let newId = responseBody.id;
+
+  if (response.ok) {
+    console.log(loginEmployeeName);
+
+    const emitData = {
+      employeeId: newId,
+      userType: "Recruiters",
+      employeeName: formData.employeeName,
+      dateOfJoining: getFormattedDateTime(),
+      userName: formData.userName,
+      designation: "",
+      department: "",
+      officialMail: "",
+      employeeEmail: "",
+      employeeNumber: "",
+      officialContactNumber: "",
+      alternateContactNo: "",
+      dateOfBirth: "",
+      gender: "",
+      companyMobileNumber: "",
+      whatsAppNumber: "",
+      emergencyContactPerson: "",
+      emergencyContactNumber: "",
+      emergencyPersonRelation: "",
+      employeePresentAddress: "",
+      employeeExperience: "",
+      perks: "",
+      maritalStatus: "",
+      anniversaryDate: "",
+      tshirtSize: "",
+      lastCompany: "",
+      workLocation: "",
+      entrySource: "",
+      employeeStatus: "",
+      lastWorkingDate: "",
+      reasonForLeaving: "",
+      inductionYesOrNo: "",
+      inductionComment: "",
+      trainingSource: "",
+      trainingCompletedYesOrNo: "",
+      trainingTakenCount: "",
+      roundsOfInterview: "",
+      interviewTakenPerson: "",
+      warningComments: "",
+      performanceIndicator: "",
+      teamLeaderMsg: loginEmployeeName,
+      editDeleteAuthority: "",
+      linkedInURl: "",
+      faceBookURL: "",
+      twitterURl: "",
+      employeeAddress: "",
+      bloodGroup: "",
+      aadhaarNo: "",
+      panNo: "",
+      educationalQualification: "",
+      offeredSalary: "",
+      jobRole: formData.jobRole,
+      professionalPtNo: "",
+      esIcNo: "",
+      pfNo: "",
+      employeePassword: "",
+      confirmPassword: "",
+      profileImage: null,
+      document: null,
+      resumeFile: null,
+      insuranceNumber: "",
+      reportingMangerName: "",
+      reportingMangerDesignation: "",
+    };
+    console.log(emitData);
+
+    toast.success("Employee Data Added Successfully.");
+    socket.emit("add_recruiter_event", emitData);
+    setFormData({
+      employeeId: "0",
+      employeeName: "",
+      dateOfJoining: "",
+      userName: "",
+      designation: "",
+      department: "",
+      officialMail: "",
+      employeeEmail: "",
+      employeeNumber: "",
+      officialContactNumber: "",
+      alternateContactNo: "",
+      dateOfBirth: "",
+      gender: "",
+      companyMobileNumber: "",
+      whatsAppNumber: "",
+      emergencyContactPerson: "",
+      emergencyContactNumber: "",
+      emergencyPersonRelation: "",
+      employeePresentAddress: "",
+      employeeExperience: "",
+      perks: "",
+      maritalStatus: "",
+      anniversaryDate: "",
+      tshirtSize: "",
+      lastCompany: "",
+      workLocation: "",
+      entrySource: "",
+      employeeStatus: "",
+      lastWorkingDate: "",
+      reasonForLeaving: "",
+      inductionYesOrNo: "",
+      inductionComment: "",
+      trainingSource: "",
+      trainingCompletedYesOrNo: "",
+      trainingTakenCount: "",
+      roundsOfInterview: "",
+      interviewTakenPerson: "",
+      warningComments: "",
+      performanceIndicator: "",
+      teamLeaderMsg: "",
+      editDeleteAuthority: "",
+      linkedInURl: "",
+      faceBookURL: "",
+      twitterURl: "",
+      employeeAddress: "",
+      bloodGroup: "",
+      aadhaarNo: "",
+      panNo: "",
+      educationalQualification: "",
+      offeredSalary: "",
+      jobRole: "",
+      professionalPtNo: "",
+      esIcNo: "",
+      pfNo: "",
+      employeePassword: "",
+      confirmPassword: "",
+      profileImage: null,
+      document: null,
+      resumeFile: null,
+      insuranceNumber: "",
+      reportingMangerName: "",
+      reportingMangerDesignation: "",
+    });
+  } else {
+    toast.error("Please Fill All Inputs.");
+  }
+} catch (error) {
+  console.error("Error:", error);
+  toast.error("Error occurred while adding employee data.");
+}
+
+
 
 
 
