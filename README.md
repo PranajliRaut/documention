@@ -444,7 +444,7 @@ npm install
   "whatsAppNumber": "9876543210",
   "workLocation": "Mumbai Office"
 }
-
+```
 ### Add Employee Post Operation:
 
 ```javascript
@@ -603,7 +603,10 @@ try {
   console.error("Error:", error);
   toast.error("Error occurred while adding employee data.");
 }
+```
+![WhatsApp Image 2025-01-23 at 4 09 44 PM](https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a)
 
+```
 
 
 
