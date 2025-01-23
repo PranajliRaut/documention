@@ -170,23 +170,47 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
       <td>@ant-design/icons</td>
       <td>^5.5.2</td>
     </tr>
-    <tr><td>@emotion/react</td><td>^11.13.3</td></tr>
-    <tr><td>@emotion/styled</td><td>^11.13.3</td></tr>
-    <tr><td>@fortawesome/fontawesome-svg-core</td><td>^11.13.0</td></tr>
+   <tr id="emotionreact">
+      <td>@emotion/react</td>
+      <td>^11.13.3</td>
+    </tr>
+    <tr id="emotionstyled">
+      <td>@emotion/styled</td>
+      <td>^11.13.3</td>
+    </tr>
+     <tr id="fortawesome">
+      <td>@fortawesome/fontawesome-svg-core</td>
+      <td>^11.13.0</td>
+    </tr>
     <tr><td>@fortawesome/free-regular-svg-icons</td><td>^6.5.2</td></tr>
     <tr><td>@fortawesome/free-solid-svg-icons</td><td>^6.5.2</td></tr>
     <tr><td>@fortawesome/react-fontawesome</td><td>^0.2.2</td></tr>
-    <tr><td>@mui/material</td><td>^6.1.5</td></tr>
+   <tr id="muimaterial">
+      <td>@mui/material</td>
+      <td>^6.1.5</td>
+    </tr>
     <tr><td>@mui/x-date-pickers</td><td>^7.21.0</td></tr>
     <tr><td>@popperjs/core</td><td>^2.11.8</td></tr>
-    <tr><td>@react-pdf-viewer/core</td><td>^3.12.0</td></tr>
-    <tr><td>@react-pdf-viewer/default-layout</td><td>^3.12.0</td></tr>
+    <tr id="reactpdfviewer">
+      <td>@react-pdf-viewer/core</td>
+      <td>^3.12.0</td>
+    </tr>
+    <tr id="reactpdfviewerdefaultlayout">
+      <td>@react-pdf-viewer/default-layout</td>
+      <td>^3.12.0</td>
+    </tr>
     <tr><td>@react-pdf/renderer</td><td>^3.4.5</td></tr>
-    <tr><td>@reduxjs/toolkit</td><td>^2.5.0</td></tr>
+    <tr id="reduxjstoolkit">
+      <td>@reduxjs/toolkit</td>
+      <td>^2.5.0</td>
+    </tr>
     <tr><td>@stomp/stompjs</td><td>^7.0.0</td></tr>
     <tr><td>Antd</td><td>^5.21.5</td></tr>
     <tr><td>Aos</td><td>^2.3.4</td></tr>
-    <tr><td>Axios</td><td>^1.6.8</td></tr>
+    <tr id="axios">
+      <td>Axios</td>
+      <td>^1.6.8</td>
+    </tr>
     <tr><td>Bootstrap</td><td>^5.3.3</td></tr>
     <tr><td>canvas-confetti</td><td>^1.9.3</td></tr>
     <tr><td>chart.js</td><td>^4.4.7</td></tr>
@@ -204,7 +228,10 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     <tr><td>jspdf-autotable</td><td>^3.8.2</td></tr>
     <tr><td>pdf-lib</td><td>^1.17.1</td></tr>
     <tr><td>Pdfmake</td><td>^0.2.10</td></tr>
-    <tr><td>React</td><td>^18.2.0</td></tr>
+     <tr id="react">
+      <td>React</td>
+      <td>^18.2.0</td>
+    </tr>
     <tr><td>react-big-calendar</td><td>^1.12.1</td></tr>
     <tr><td>react-bootstrap</td><td>^2.10.2</td></tr>
     <tr><td>react-calendar</td><td>^5.0.0</td></tr>
@@ -223,17 +250,26 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     <tr><td>react-phone-number-input</td><td>^3.4.3</td></tr>
     <tr><td>react-qr-code</td><td>^2.0.15</td></tr>
     <tr><td>react-redux</td><td>^9.2.0</td></tr>
-    <tr><td>react-router-dom</td><td>^6.23.1</td></tr>
+     <tr id="reactrouterdom">
+      <td>react-router-dom</td>
+      <td>^6.23.1</td>
+    </tr>
     <tr><td>react-spinner</td><td>^0.2.7</td></tr>
     <tr><td>react-spinners</td><td>^0.13.8</td></tr>
     <tr><td>react-stomp</td><td>^5.1.0</td></tr>
     <tr><td>react-time-picker</td><td>^7.0.0</td></tr>
     <tr><td>react-to-print</td><td>^2.15.1</td></tr>
-    <tr><td>react-toastify</td><td>^10.0.5</td></tr>
+   <tr id="reacttoastify">
+      <td>react-toastify</td>
+      <td>^10.0.5</td>
+    </tr>
     <tr><td>react-tooltip</td><td>^5.27.1</td></tr>
     <tr><td>react-web-share</td><td>^2.0.2</td></tr>
     <tr><td>Recharts</td><td>^2.12.6</td></tr>
-    <tr><td>socket.io-client</td><td>^4.8.1</td></tr>
+   <tr id="socketioclient">
+      <td>socket.io-client</td>
+      <td>^4.8.1</td>
+    </tr>
     <tr><td>Sockjs</td><td>^0.3.24</td></tr>
     <tr><td>sockjs-client</td><td>^1.6.1</td></tr>
     <tr><td>Stompjs</td><td>^2.3.3</td></tr>
@@ -263,7 +299,10 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     <tr><td>eslint-plugin-react-hooks</td><td>^4.6.0</td></tr>
     <tr><td>eslint-plugin-react-refresh</td><td>^0.4.6</td></tr>
     <tr><td>Postcss</td><td>^8.4.39</td></tr>
-    <tr><td>Tailwindcss</td><td>^3.4.4</td></tr>
+    <tr id="tailwindcss">
+      <td>tailwindcss</td>
+      <td>^2.1.2</td>
+    </tr>
     <tr><td>Vite</td><td>^5.3.3</td></tr>
   </tbody>
 </table>
@@ -279,17 +318,17 @@ npm install
 
 ### Core Dependencies
 -  **[@ant-design/icons](#ant-designicons)**: Provides Ant Design icons for UI components.
-- **@emotion/react & @emotion/styled**: Used for CSS-in-JS styling, allowing you to style React components directly.
-- **@fortawesome/***: Font Awesome icon library for React, offering scalable vector icons.
-- **@mui/material**: Material UI framework components, enabling easy and consistent design patterns for React apps.
-- **@react-pdf-viewer/core & default-layout**: Libraries for rendering and displaying PDF documents in React.
-- **@reduxjs/toolkit**: Simplifies Redux development, providing utilities and a standard approach for managing state.
-- **axios**: Promise-based HTTP client for making API requests to communicate with external services.
-- **react**: Main React library for building user interfaces with reusable components.
-- **react-router-dom**: For handling routing in the app, allowing users to navigate between different views.
-- **react-toastify**: Toast notifications for easy feedback to users.
-- **socket.io-client**: Used for real-time WebSocket communication between the client and server.
-- **tailwindcss**: Utility-first CSS framework for building custom designs with minimal effort.
+- **[@emotion/react](#emotionreact) & [@emotion/styled](#emotionstyled)**: Used for CSS-in-JS styling, allowing you to style React components directly.
+- **[@fortawesome](#fortawesome)**: Font Awesome icon library for React, offering scalable vector icons.
+-  **[@mui/material](#muimaterial)**: Material UI framework components, enabling easy and consistent design patterns for React apps.
+- **[@react-pdf-viewer/core](#reactpdfviewer) & [default-layout](#reactpdfviewerdefaultlayout)**: Libraries for rendering and displaying PDF documents in React.
+- **[@reduxjs/toolkit](#reduxjstoolkit)**: Simplifies Redux development, providing utilities and a standard approach for managing state.
+- **[axios](#axios)**: Promise-based HTTP client for making API requests to communicate with external services.
+- **[react](#react)**: Main React library for building user interfaces with reusable components.
+- **[react-router-dom](#reactrouterdom)**: For handling routing in the app, allowing users to navigate between different views.
+- **[react-toastify](#reacttoastify)**: Toast notifications for easy feedback to users.
+- **[socket.io-client](#socketioclient)**: Used for real-time WebSocket communication between the client and server.
+- **[tailwindcss](#tailwindcss)**: Utility-first CSS framework for building custom designs with minimal effort.
 
 
 
