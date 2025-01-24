@@ -194,7 +194,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
     <tr><td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">@mui/x-date-pickers</a></td><td>^7.21.0</td>  
     </tr>
-    <tr><td>@popperjs/core</td><td>^2.11.8</td></tr>
+    <tr><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@popperjs/core</a></td><td>^2.11.8</td></tr>
     <tr id="reactpdfviewer">
       <td>@react-pdf-viewer/core</td>
       <td>^3.12.0</td>
