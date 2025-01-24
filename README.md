@@ -167,9 +167,9 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
   <tbody>
    <tr>
      <tr id="ant-designicons">
-      <td>@ant-design/icons</td>
+      <td><a href="https://www.npmjs.com/package/@ant-design/icons" target="_blank">@ant-design/icons</a></td>
       <td>^5.5.2</td>
-       <td><a href="https://www.npmjs.com/package/@ant-design/icons" target="_blank">Link</a></td>
+      
     </tr>
    <tr id="emotionreact">
       <td>@emotion/react</td>
