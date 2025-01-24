@@ -227,29 +227,29 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     <tr><td><a href="https://github.com/indigojs/colormap" target="_blank">Colormap on GitHub</a></td><td>^2.3.2</td></tr>
     <tr><td><a href="https://cryptojs.googlecode.com/svn/tags/crypto-js-3.1.9-1/build/crypto-js.js" target="_blank">crypto-js Documentation</a></td><td>^4.2.0</td></tr>
     <tr><td><a href="https://date-fns.org/" target="_blank">date-fns Documentation</a></td><td>^2.30.0</td></tr>
-    <tr><td>Dayjs</td><td>^1.11.13</td></tr>
-    <tr><td>Formic</td><td>^2.4.6</td></tr>
-    <tr><td>Fortawesome</td><td>^0.0.1-security</td></tr>
-    <tr><td>html2canvas</td><td>^1.4.1</td></tr>
-    <tr><td>html2pdf.js</td><td>^0.10.2</td></tr>
-    <tr><td>Io</td><td>1.5.0</td></tr>
-    <tr><td>Jspdf</td><td>^2.5.1</td></tr>
-    <tr><td>jspdf-autotable</td><td>^3.8.2</td></tr>
-    <tr><td>pdf-lib</td><td>^1.17.1</td></tr>
-    <tr><td>Pdfmake</td><td>^0.2.10</td></tr>
+    <tr><td><a href="https://day.js.org/" target="_blank">Day.js Documentation</a></td><td>^1.11.13</td></tr>
+    <tr><td><a href="https://formik.org/" target="_blank">Formik Documentation</a> </td><td>^2.4.6</td></tr>
+    <tr><td><a href="https://github.com/FortAwesome/Font-Awesome" target="_blank">Fortawesome on GitHub</a></td><td>^0.0.1-security</td></tr>
+    <tr><td><a href="https://html2canvas.hertzen.com/" target="_blank">html2canvas Documentation</a></td><td>^1.4.1</td></tr>
+    <tr><td><a href="https://github.com/eKoopmans/html2pdf" target="_blank">html2pdf.js on GitHub</a></td><td>^0.10.2</td></tr>
+    <tr><td><a href="https://github.com/ianstormtaylor/io" target="_blank">Io on GitHub</a></td><td>1.5.0</td></tr>
+    <tr><td><a href="https://github.com/parallax/jsPDF" target="_blank">jsPDF Documentation</a></td><td>^2.5.1</td></tr>
+    <tr><td><a href="https://github.com/eKoopmans/html2pdf" target="_blank">jspdf-autotable on GitHub</a></td><td>^3.8.2</td></tr>
+    <tr><td><a href="https://github.com/Hopding/pdf-lib" target="_blank">pdf-lib Documentation</a></td><td>^1.17.1</td></tr>
+    <tr><td><a href="https://pdfmake.github.io/pdfmake/" target="_blank">Pdfmake Documentation</a></td><td>^0.2.10</td></tr>
      <tr id="react">
-      <td>React</td>
+      <td> <a href="https://reactjs.org/" target="_blank">React</a></td>
       <td>^18.2.0</td>
     </tr>
-    <tr><td>react-big-calendar</td><td>^1.12.1</td></tr>
-    <tr><td>react-bootstrap</td><td>^2.10.2</td></tr>
-    <tr><td>react-calendar</td><td>^5.0.0</td></tr>
-    <tr><td>react-chartjs-2</td><td>^5.2.0</td></tr>
-    <tr><td>react-color</td><td>^2.19.3</td></tr>
-    <tr><td>react-confetti</td><td>^6.1.0</td></tr>
-    <tr><td>react-datepicker</td><td>^6.9.0</td></tr>
-    <tr><td>react-dom</td><td>^18.2.0</td></tr>
-    <tr><td>react-flatpickr</td><td>^3.10.13</td></tr>
+    <tr><td><a href="https://github.com/jquense/react-big-calendar" target="_blank">react-big-calendar on GitHub</a></td><td>^1.12.1</td></tr>
+    <tr><td><a href="https://react-bootstrap.github.io/" target="_blank">react-bootstrap Documentation</a></td><td>^2.10.2</td></tr>
+    <tr><td><a href="https://github.com/wojtekmaj/react-calendar" target="_blank">react-calendar on GitHub</a> r</td><td>^5.0.0</td></tr>
+    <tr><td><a href="https://github.com/reactchartjs/react-chartjs-2" target="_blank">react-chartjs-2 on GitHub</a></td><td>^5.2.0</td></tr>
+    <tr><td> <a href="https://github.com/reactjs/react-color" target="_blank">react-color on GitHub</a></td><td>^2.19.3</td></tr>
+    <tr><td><a href="https://github.com/alampros/react-confetti" target="_blank">react-confetti on GitHub</a></td><td>^6.1.0</td></tr>
+    <tr><td><a href="https://reactdatepicker.com/" target="_blank">react-datepicker Documentation</a></td><td>^6.9.0</td></tr>
+    <tr><td><a href="https://reactjs.org/docs/react-dom.html" target="_blank">react-dom Documentation</a></td><td>^18.2.0</td></tr>
+    <tr><td><a href="https://github.com/Mosha/react-flatpickr" target="_blank">react-flatpickr on GitHub</a> |</td><td>^3.10.13</td></tr>
     <tr><td>react-fontawesome</td><td>^1.7.1</td></tr>
     <tr><td>react-hook-form</td><td>^7.52.1</td></tr>
     <tr><td>react-icon</td><td>^1.0.0</td></tr>
