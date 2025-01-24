@@ -168,40 +168,31 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
    <tr>
      <tr id="ant-designicons">
       <td><a href="https://www.npmjs.com/package/@ant-design/icons" target="_blank">@ant-design/icons</a></td>
-      <td>^5.5.2</td>
-      
+      <td>^5.5.2</td> 
     </tr>
    <tr id="emotionreact">
-      <td>@emotion/react</td>
+     <td><a href="https://www.npmjs.com/package/@emotion/react" target="_blank">@emotion/react</a></td>
       <td>^11.13.3</td>
-      <td><a href="https://www.npmjs.com/package/@emotion/react" target="_blank">Link</a></td>
     </tr>
     <tr id="emotionstyled">
-      <td>@emotion/styled</td>
+       <td><a href="https://www.npmjs.com/package/@emotion/styled" target="_blank">@emotion/styled</a></td>
       <td>^11.13.3</td>
-       <td><a href="https://www.npmjs.com/package/@emotion/styled" target="_blank">Link</a></td>
     </tr>
      <tr id="fortawesome">
-      <td>@fortawesome/fontawesome-svg-core</td>
-      <td>^11.13.0</td>
-       <td><a href="https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core" target="_blank">Link</a></td>
+       <td><a href="https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core" target="_blank">@fortawesome/fontawesome-svg-core</a></td>
+      <td>^11.13.0</td>   
     </tr>
-    <tr><td>@fortawesome/free-regular-svg-icons</td><td>^6.5.2</td>
-     <td><a href="https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons" target="_blank">Link</a></td>
-    </tr>
-    <tr><td>@fortawesome/free-solid-svg-icons</td><td>^6.5.2</td>
-      <td><a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons" target="_blank">Link</a></td>
-    </tr>
-    <tr><td>@fortawesome/react-fontawesome</td><td>^0.2.2</td>
-     <td><a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank">Link</a></td>
+    <tr><td><a href="https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons" target="_blank">@fortawesome/free-regular-svg-icons</a></td><td>^6.5.2</td>
+   </tr>
+    <tr></tr><td><a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons" target="_blank">@fortawesome/free-solid-svg-icons</a></td>><td>^6.5.2</td>
+     </tr>
+    <tr><td><a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank">@fortawesome/react-fontawesome</a></td><td>^0.2.2</td>
     </tr>
    <tr id="muimaterial">
-      <td>@mui/material</td>
-      <td>^6.1.5</td>
-      <td><a href="https://www.npmjs.com/package/@mui/material" target="_blank">Link</a></td>
+     <td><a href="https://www.npmjs.com/package/@mui/material" target="_blank">@mui/material</a></td>
+      <td>^6.1.5</td>  
     </tr>
-    <tr><td>@mui/x-date-pickers</td><td>^7.21.0</td>
-     <td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">Link</a></td>
+    <tr><td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">@mui/x-date-pickers</a></td><td>^7.21.0</td>  
     </tr>
     <tr><td>@popperjs/core</td><td>^2.11.8</td></tr>
     <tr id="reactpdfviewer">
