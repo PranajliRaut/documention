@@ -194,7 +194,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
     <tr><td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">@mui/x-date-pickers</a></td><td>^7.21.0</td>  
     </tr>
-    <tr><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@popperjs/core</a></td><td>^2.11.8</td>
+    <tr><td><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@popperjs/core</a></td><td>^2.11.8</td>
     </tr>
     <tr id="reactpdfviewer">
       <td><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@react-pdf-viewer/core</a></td>
@@ -214,18 +214,19 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
       </tr>
     <tr><td><a href="https://www.npmjs.com/package/antd" target="_blank">Antd</a></td><td>^5.21.5</td>
     </tr>
-    <tr><td><a href="https://www.npmjs.com/package/aos" target="_blank">Aos</a></td></tr><td>^2.3.4</td>
+    <tr><td><a href="https://www.npmjs.com/package/aos" target="_blank">Aos</a></td><td>^2.3.4</td>
+    </tr>
     <tr id="axios">
       <td><a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a></td>
       <td>^1.6.8</td> 
     </tr>
-    <tr><td>Bootstrap</td><td>^5.3.3</td></tr>
-    <tr><td>canvas-confetti</td><td>^1.9.3</td></tr>
-    <tr><td>chart.js</td><td>^4.4.7</td></tr>
-    <tr><td>chroma-js</td><td>^3.1.1</td></tr>
-    <tr><td>Colormap</td><td>^2.3.2</td></tr>
-    <tr><td>crypto-js</td><td>^4.2.0</td></tr>
-    <tr><td>date-fns</td><td>^2.30.0</td></tr>
+    <tr><td><a href="https://getbootstrap.com/" target="_blank">Bootstrap Documentation</a></td><td>^5.3.3</td></tr>
+    <tr><td><a href="https://github.com/catdad/canvas-confetti" target="_blank">canvas-confetti on GitHub</a></td><td>^1.9.3</td></tr>
+    <tr><td><a href="https://www.chartjs.org/" target="_blank">Chart.js Documentation</a></td><td>^4.4.7</td></tr>
+    <tr><td><a href="https://gka.github.io/chroma.js/" target="_blank">Chroma.js Documentation</a></td><td>^3.1.1</td></tr>
+    <tr><td><a href="https://github.com/indigojs/colormap" target="_blank">Colormap on GitHub</a></td><td>^2.3.2</td></tr>
+    <tr><td><a href="https://cryptojs.googlecode.com/svn/tags/crypto-js-3.1.9-1/build/crypto-js.js" target="_blank">crypto-js Documentation</a></td><td>^4.2.0</td></tr>
+    <tr><td><a href="https://date-fns.org/" target="_blank">date-fns Documentation</a></td><td>^2.30.0</td></tr>
     <tr><td>Dayjs</td><td>^1.11.13</td></tr>
     <tr><td>Formic</td><td>^2.4.6</td></tr>
     <tr><td>Fortawesome</td><td>^0.0.1-security</td></tr>
