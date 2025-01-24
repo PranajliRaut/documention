@@ -265,7 +265,7 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
     <tr><td> <a href="https://github.com/kolodny/react-spinner" target="_blank">react-spinner on GitHub</a></td><td>^0.2.7</td></tr>
     <tr><td> <a href="https://react-spinners.github.io/react-spinners/" target="_blank">react-spinners Documentation</a></td><td>^0.13.8</td></tr>
-    <tr><td><a href="https://github.com/jmesnil/stomp-websocket" target="_blank">react-stomp on GitHub</a>react-stomp</td><td>^5.1.0</td></tr>
+    <tr><td><a href="https://github.com/jmesnil/stomp-websocket" target="_blank">react-stomp on GitHub</a></td><td>^5.1.0</td></tr>
     <tr><td> <a href="https://github.com/wojtekmaj/react-time-picker" target="_blank">react-time-picker on GitHub</a></td><td>^7.0.0</td></tr>
     <tr><td><a href="https://github.com/gregnb/react-to-print" target="_blank">react-to-print on GitHub</a> </td><td>^2.15.1</td></tr>
    <tr id="reacttoastify">
