@@ -454,7 +454,7 @@ npm install
   "workLocation": "Mumbai Office"
 }
 ```
-### Add Employee Post Operation:
+### Add Employee Post Operation: 
 
 ```javascript
 try {    
@@ -467,6 +467,28 @@ try {
   );
   ```
 
+'''
+### Add Employee Put Operation:
+```javascript
+const response = await fetch(`${API_BASE_URL}/update-employee/${employeeId}`, {
+  method: "PUT",
+  body: formDataToSend,
+});
+
+```
+### Add Employee Delete Operation:
+```javascript
+const response = await fetch(`${API_BASE_URL}/delete-employee/${employeeId}`, {
+  method: "DELETE",
+});
+
+```
+### Add Employee Get Operation:
+```javascript
+const response = await fetch(`${API_BASE_URL}/get-employee/${employeeId}`);
+const data = await response.json();
+
+```
 <img src="https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a" width="1000" height="auto" />
 
 ```
@@ -673,8 +695,4 @@ This document explains the structure and details of the API response for fetchin
     "empty": false
 }
 ```
-
-
-
-
 
