@@ -249,43 +249,43 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     <tr><td><a href="https://github.com/alampros/react-confetti" target="_blank">react-confetti on GitHub</a></td><td>^6.1.0</td></tr>
     <tr><td><a href="https://reactdatepicker.com/" target="_blank">react-datepicker Documentation</a></td><td>^6.9.0</td></tr>
     <tr><td><a href="https://reactjs.org/docs/react-dom.html" target="_blank">react-dom Documentation</a></td><td>^18.2.0</td></tr>
-    <tr><td><a href="https://github.com/Mosha/react-flatpickr" target="_blank">react-flatpickr on GitHub</a> |</td><td>^3.10.13</td></tr>
-    <tr><td>react-fontawesome</td><td>^1.7.1</td></tr>
-    <tr><td>react-hook-form</td><td>^7.52.1</td></tr>
-    <tr><td>react-icon</td><td>^1.0.0</td></tr>
-    <tr><td>react-icons</td><td>^5.2.1</td></tr>
-    <tr><td>react-modal</td><td>^3.16.1</td></tr>
-    <tr><td>react-pdf</td><td>^9.1.0</td></tr>
-    <tr><td>react-phone-number-input</td><td>^3.4.3</td></tr>
-    <tr><td>react-qr-code</td><td>^2.0.15</td></tr>
-    <tr><td>react-redux</td><td>^9.2.0</td></tr>
+    <tr><td><a href="https://github.com/Mosha/react-flatpickr" target="_blank">react-flatpickr on GitHub</a></td><td>^3.10.13</td></tr>
+    <tr><td> <a href="https://github.com/FortAwesome/react-fontawesome" target="_blank">react-fontawesome on GitHub</a></td><td>^1.7.1</td></tr>
+    <tr><td><a href="https://react-hook-form.com/" target="_blank">react-hook-form Documentation</a></td><td>^7.52.1</td></tr>
+    <tr><td><a href="https://github.com/ReactIcons/react-icons" target="_blank">react-icon on GitHub</a></td><td>^1.0.0</td></tr>
+    <tr><td><a href="https://react-icons.github.io/react-icons/" target="_blank">react-icons Documentation</a></td><td>^5.2.1</td></tr>
+    <tr><td> <a href="https://reactcommunity.org/react-modal/" target="_blank">react-modal Documentation</a></td><td>^3.16.1</td></tr>
+    <tr><td> <a href="https://react-pdf.org/" target="_blank">react-pdf Documentation</a</td><td>^9.1.0</td></tr>
+    <tr><td> <a href="https://github.com/islamsultan/react-phone-number-input" target="_blank">react-phone-number-input on GitHub</a></td><td>^3.4.3</td></tr>
+    <tr><td><a href="https://github.com/jorenvanhee/react-qr-code" target="_blank">react-qr-code on GitHub</a></td><td>^2.0.15</td></tr>
+    <tr><td><a href="https://react-redux.js.org/" target="_blank">react-redux Documentation</a></td><td>^9.2.0</td></tr>
      <tr id="reactrouterdom">
-      <td>react-router-dom</td>
+      <td><a href="https://reactrouter.com/" target="_blank">react-router-dom Documentation</a></td>
       <td>^6.23.1</td>
     </tr>
-    <tr><td>react-spinner</td><td>^0.2.7</td></tr>
-    <tr><td>react-spinners</td><td>^0.13.8</td></tr>
-    <tr><td>react-stomp</td><td>^5.1.0</td></tr>
-    <tr><td>react-time-picker</td><td>^7.0.0</td></tr>
-    <tr><td>react-to-print</td><td>^2.15.1</td></tr>
+    <tr><td> <a href="https://github.com/kolodny/react-spinner" target="_blank">react-spinner on GitHub</a></td><td>^0.2.7</td></tr>
+    <tr><td> <a href="https://react-spinners.github.io/react-spinners/" target="_blank">react-spinners Documentation</a></td><td>^0.13.8</td></tr>
+    <tr><td><a href="https://github.com/jmesnil/stomp-websocket" target="_blank">react-stomp on GitHub</a>react-stomp</td><td>^5.1.0</td></tr>
+    <tr><td> <a href="https://github.com/wojtekmaj/react-time-picker" target="_blank">react-time-picker on GitHub</a></td><td>^7.0.0</td></tr>
+    <tr><td><a href="https://github.com/gregnb/react-to-print" target="_blank">react-to-print on GitHub</a> </td><td>^2.15.1</td></tr>
    <tr id="reacttoastify">
-      <td>react-toastify</td>
+      <td><a href="https://github.com/fkhadra/react-toastify" target="_blank">react-toastify on GitHub</a></td>
       <td>^10.0.5</td>
     </tr>
-    <tr><td>react-tooltip</td><td>^5.27.1</td></tr>
-    <tr><td>react-web-share</td><td>^2.0.2</td></tr>
-    <tr><td>Recharts</td><td>^2.12.6</td></tr>
+    <tr><td><a href="https://react-tooltip.com/" target="_blank">react-tooltip Documentation</a></td><td>^5.27.1</td></tr>
+    <tr><td><a href="https://github.com/ogozu/react-web-share" target="_blank">react-web-share on GitHub</a></td><td>^2.0.2</td></tr>
+    <tr><td><a href="https://recharts.org/en-US/" target="_blank">Recharts Documentation</a></td><td>^2.12.6</td></tr>
    <tr id="socketioclient">
-      <td>socket.io-client</td>
+      <td> <a href="https://socket.io/docs/v4/client-api/" target="_blank">socket.io-client Documentation</a></td>
       <td>^4.8.1</td>
     </tr>
-    <tr><td>Sockjs</td><td>^0.3.24</td></tr>
-    <tr><td>sockjs-client</td><td>^1.6.1</td></tr>
-    <tr><td>Stompjs</td><td>^2.3.3</td></tr>
-    <tr><td>svg-to-img</td><td>^2.0.9</td></tr>
-    <tr><td>theme-change</td><td>^2.5.0</td></tr>
-    <tr><td>Xlsx</td><td>^0.18.5</td></tr>
-    <tr><td>Yup</td><td>^1.4.0</td></tr>
+    <tr><td> <a href="https://github.com/sockjs/sockjs-client" target="_blank">Sockjs on GitHub</a></td><td>^0.3.24</td></tr>
+    <tr><td><a href="https://github.com/sockjs/sockjs-client" target="_blank">sockjs-client on GitHub</a> </td><td>^1.6.1</td></tr>
+    <tr><td><a href="https://github.com/stomp-js/stompjs" target="_blank">Stompjs on GitHub</a></td><td>^2.3.3</td></tr>
+    <tr><td><a href="https://github.com/jeremydmiller/svg-to-img" target="_blank">svg-to-img on GitHub</a></td><td>^2.0.9</td></tr>
+    <tr><td><a href="https://github.com/andrejuan/theme-change" target="_blank">theme-change on GitHub</a></td><td>^2.5.0</td></tr>
+    <tr><td> <a href="https://github.com/SheetJS/js-xlsx" target="_blank">Xlsx Documentation</a></td><td>^0.18.5</td></tr>
+    <tr><td> <a href="https://github.com/jquense/yup" target="_blank">Yup Documentation</a></td><td>^1.4.0</td></tr>
   </tbody>
 </table>
 
