@@ -458,32 +458,15 @@ try {
   );
   
 ```
-<img src="https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a" width="600" height="auto" />
+<img src="https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a" width="1000" height="auto" />
 
 ```
-```
+
 # API Request Explanation
 
-This document explains how the API request is made to the backend to add employee data.
 
-## Making the API Request
-
-```javascript
-const response = await fetch(
-  `${API_BASE_URL}/add-employee/${employeeId}/${userType}`,
-  {
-    method: "POST",
-    body: formDataToSend,
-  }
-);
 ```
 
-### Key Points:
-- **`fetch`** makes a request to a dynamically constructed URL.
-- **`POST`** is used to send data to the server.
-- **`formDataToSend`** contains the employee data being submitted.
-
----
 
 
 
