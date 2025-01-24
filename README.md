@@ -496,6 +496,7 @@ const data = await response.json();
 
 # Employee Management API
 
+
 This API defines endpoints for managing employee data in a system. It supports operations like adding, updating, deleting, and retrieving employee details.
 
 ## 1. POST (Add Employee)
@@ -565,6 +566,7 @@ useEffect(() => {
 }, [currentPage, pageSize]);
 
 ```
+
 # Understanding the `useEffect` Hook in React
 
 The following code demonstrates the use of the `useEffect` hook to handle side effects in a React component, specifically fetching data from an API.
@@ -576,6 +578,8 @@ useEffect(() => {
   // fetchData function and API call inside the useEffect
 }, [currentPage, pageSize]);
 ```
+
+
 
 ### 1. **Purpose of `useEffect`**
 - `useEffect` allows you to run side effects in your components.
@@ -603,7 +607,8 @@ The `useEffect` hook takes **two arguments**:
 
 This document explains the structure and details of the API response for fetching employee data.
 
----
+```
+```
 
 ## Sample JSON Response
 
