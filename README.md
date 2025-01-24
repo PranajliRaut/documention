@@ -169,47 +169,71 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
      <tr id="ant-designicons">
       <td>@ant-design/icons</td>
       <td>^5.5.2</td>
+       <td><a href="https://www.npmjs.com/package/@ant-design/icons" target="_blank">Link</a></td>
     </tr>
    <tr id="emotionreact">
       <td>@emotion/react</td>
       <td>^11.13.3</td>
+      <td><a href="https://www.npmjs.com/package/@emotion/react" target="_blank">Link</a></td>
     </tr>
     <tr id="emotionstyled">
       <td>@emotion/styled</td>
       <td>^11.13.3</td>
+       <td><a href="https://www.npmjs.com/package/@emotion/styled" target="_blank">Link</a></td>
     </tr>
      <tr id="fortawesome">
       <td>@fortawesome/fontawesome-svg-core</td>
       <td>^11.13.0</td>
+       <td><a href="https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core" target="_blank">Link</a></td>
     </tr>
-    <tr><td>@fortawesome/free-regular-svg-icons</td><td>^6.5.2</td></tr>
-    <tr><td>@fortawesome/free-solid-svg-icons</td><td>^6.5.2</td></tr>
-    <tr><td>@fortawesome/react-fontawesome</td><td>^0.2.2</td></tr>
+    <tr><td>@fortawesome/free-regular-svg-icons</td><td>^6.5.2</td>
+     <td><a href="https://www.npmjs.com/package/@fortawesome/free-regular-svg-icons" target="_blank">Link</a></td>
+    </tr>
+    <tr><td>@fortawesome/free-solid-svg-icons</td><td>^6.5.2</td>
+      <td><a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons" target="_blank">Link</a></td>
+    </tr>
+    <tr><td>@fortawesome/react-fontawesome</td><td>^0.2.2</td>
+     <td><a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank">Link</a></td>
+    </tr>
    <tr id="muimaterial">
       <td>@mui/material</td>
       <td>^6.1.5</td>
+      <td><a href="https://www.npmjs.com/package/@mui/material" target="_blank">Link</a></td>
     </tr>
-    <tr><td>@mui/x-date-pickers</td><td>^7.21.0</td></tr>
+    <tr><td>@mui/x-date-pickers</td><td>^7.21.0</td>
+     <td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">Link</a></td>
+    </tr>
     <tr><td>@popperjs/core</td><td>^2.11.8</td></tr>
     <tr id="reactpdfviewer">
       <td>@react-pdf-viewer/core</td>
       <td>^3.12.0</td>
+      <td><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">Link</a></td>
     </tr>
     <tr id="reactpdfviewerdefaultlayout">
       <td>@react-pdf-viewer/default-layout</td>
       <td>^3.12.0</td>
+      <td><a href="https://www.npmjs.com/package/@react-pdf-viewer/default-layout" target="_blank">Link</a></td>
     </tr>
-    <tr><td>@react-pdf/renderer</td><td>^3.4.5</td></tr>
+    <tr><td>@react-pdf/renderer</td><td>^3.4.5</td>
+     <td><a href="https://www.npmjs.com/package/@react-pdf/renderer" target="_blank">Link</a></td>
+    </tr>
     <tr id="reduxjstoolkit">
       <td>@reduxjs/toolkit</td>
       <td>^2.5.0</td>
+       <td><a href="https://www.npmjs.com/package/@reduxjs/toolkit" target="_blank">Link</a></td>
     </tr>
-    <tr><td>@stomp/stompjs</td><td>^7.0.0</td></tr>
-    <tr><td>Antd</td><td>^5.21.5</td></tr>
-    <tr><td>Aos</td><td>^2.3.4</td></tr>
+    <tr><td>@stomp/stompjs</td><td>^7.0.0</td>
+     <td><a href="https://www.npmjs.com/package/@stomp/stompjs" target="_blank">Link</a></td>
+    </tr>
+    <tr><td>Antd</td><td>^5.21.5</td>
+    <td><a href="https://www.npmjs.com/package/antd" target="_blank">Link</a></td>
+    </tr>
+    <tr><td>Aos</td><td>^2.3.4</td>
+    <td><a href="https://www.npmjs.com/package/aos" target="_blank">Link</a></td></tr>
     <tr id="axios">
       <td>Axios</td>
       <td>^1.6.8</td>
+      <td><a href="https://www.npmjs.com/package/axios" target="_blank">Link</a></td>
     </tr>
     <tr><td>Bootstrap</td><td>^5.3.3</td></tr>
     <tr><td>canvas-confetti</td><td>^1.9.3</td></tr>
