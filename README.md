@@ -456,18 +456,75 @@ try {
       body: formDataToSend,
     }
   );
-  
-```
+  ```
+
 <img src="https://github.com/user-attachments/assets/a55a03e3-7ea0-4eb8-8cdf-e4d7e377e69a" width="1000" height="auto" />
 
 ```
+```
+# Key Parts of the Code
 
-# API Request Explanation
+## 1. `fetch()` Function:
 
+- `fetch()` is used to make HTTP requests in JavaScript. In this case, it's making a `POST` request to a URL.
+  
+- **URL**: The URL to which the `POST` request is being made is constructed dynamically using template literals:
+  
+  ```javascript
+  `${API_BASE_URL}/add-employee/${employeeId}/${userType}`
+
+  - `API_BASE_URL` is presumably a constant or variable containing the base URL for the API (e.g., `https://api.example.com`).
+
+- `employeeId` and `userType` are dynamic values (likely variables or constants) that will be included in the URL path as part of the request.
+
+- The final URL would look something like `https://api.example.com/add-employee/123/manager`, where `123` is the `employeeId` and `manager` is the `userType`.
+## 2. Request Method:
+
+- The request method is specified as `"POST"`, indicating that data is being sent to the server (e.g., for creating a new employee record).
+
+## 3. Request Body (`formDataToSend`):
+
+- The body of the request is where the data (likely form data or an object) is included. This could be a `FormData` object, a JSON object, or other types of data, depending on how it's structured.
+  
+- The variable `formDataToSend` would contain this data, which is sent to the server as part of the `POST` request.
+
+
+## 4. `await`
+- The `await` keyword is used because `fetch()` returns a Promise.
+- The code is inside an `async` function, and `await` pauses the execution of the function until the Promise resolves (or rejects).
+- This ensures that the `response` variable will contain the result of the POST request after it is completed.
+
+## 5. Error Handling
+- The `try...catch` block is used to handle any errors that might occur during the execution of the code in the `try` block.
+- If the `fetch()` request fails or an error occurs during the execution of the `await` operation, the `catch` block will be triggered.
+- Inside the `catch` block, the message **"Error occurred while adding employee data."** is logged to the console, signaling that something went wrong.
 
 ```
+```
+# Fetch Employee Team Details with `useEffect`
 
+This code demonstrates how to use the `useEffect` hook in React to fetch employee team details from a backend API whenever certain state variables (`currentPage` or `pageSize`) change.
 
+## Code Example
+
+```javascript
+useEffect(() => {
+  const fetchData = async (page, size) => {
+    try {
+      const response = await axios.get(
+        `${API_BASE_URL}/fetch-Team-details/${employeeId}/${userType}?page=${page}&size=${size}`
+      );
+      setEmployeeData(response.data.content);
+      setLoading(false);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+      setLoading(false);
+    }
+  };
+
+  fetchData(currentPage, pageSize);
+}, [currentPage, pageSize]);
+```
 
 
 
