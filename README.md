@@ -524,6 +524,145 @@ useEffect(() => {
 
   fetchData(currentPage, pageSize);
 }, [currentPage, pageSize]);
+
+```
+# Understanding the `useEffect` Hook in React
+
+The following code demonstrates the use of the `useEffect` hook to handle side effects in a React component, specifically fetching data from an API.
+
+## Code Example
+
+```javascript
+useEffect(() => {
+  // fetchData function and API call inside the useEffect
+}, [currentPage, pageSize]);
+```
+
+### 1. **Purpose of `useEffect`**
+- `useEffect` allows you to run side effects in your components.
+- In this example, the side effect is **fetching data from an API**.
+
+### 2. **Arguments of `useEffect`**
+The `useEffect` hook takes **two arguments**:
+1. **Callback Function**:
+   - Contains the logic for the side effect. 
+   - For example, the API fetching logic would go inside this callback.
+2. **Dependency Array**:
+   - Specifies when the effect should re-run.
+   - In this case, the dependency array is `[currentPage, pageSize]`.
+   - **Effect Behavior**: 
+     - The effect will run whenever either `currentPage` or `pageSize` changes.
+
+### 3. **When Does `useEffect` Run?**
+- **Initial Render**: The `useEffect` runs after the first render.
+- **Dependency Changes**: It re-runs whenever a value in the dependency array changes.
+- **No Dependencies**: If the array is empty (`[]`), the effect runs only once, after the component mounts.
+
+```
+```
+# API Response: Employee Data
+
+This document explains the structure and details of the API response for fetching employee data.
+
+---
+
+## Sample JSON Response
+
+```json
+{
+    "content": [
+        {
+            "id": 5,
+            "contact": 9244055548,
+            "email": null,
+            "joinDate": "2024-06-10",
+            "designation": "HR Consultant",
+            "jobRole": "Recruiters",
+            "department": "IT ",
+            "reportingManger": "Nisha Singh",
+            "resume": null,
+            "status": "Active",
+            "name": "Arshad Attar R"
+        },
+        {
+            "id": 15,
+            "contact": 0,
+            "email": null,
+            "joinDate": "",
+            "designation": "",
+            "jobRole": "",
+            "department": "",
+            "reportingManger": "",
+            "resume": null,
+            "status": "",
+            "name": ""
+        },
+        {
+            "id": 16,
+            "contact": 0,
+            "email": null,
+            "joinDate": "NA",
+            "designation": "Recruiter",
+            "jobRole": "NA",
+            "department": "NA",
+            "reportingManger": "NA",
+            "resume": null,
+            "status": "NA",
+            "name": "r1"
+        },
+        {
+            "id": 17,
+            "contact": 0,
+            "email": null,
+            "joinDate": "NA",
+            "designation": "Recruiter",
+            "jobRole": "NA",
+            "department": "NA",
+            "reportingManger": "NA",
+            "resume": null,
+            "status": "NA",
+            "name": "r2"
+        },
+        {
+            "id": 18,
+            "contact": 0,
+            "email": null,
+            "joinDate": "NA",
+            "designation": "Recruiter",
+            "jobRole": "NA",
+            "department": "NA",
+            "reportingManger": "NA",
+            "resume": null,
+            "status": "NA",
+            "name": "r3"
+        }
+    ],
+    "pageable": {
+        "pageNumber": 0,
+        "pageSize": 5,
+        "sort": {
+            "sorted": false,
+            "empty": true,
+            "unsorted": true
+        },
+        "offset": 0,
+        "paged": true,
+        "unpaged": false
+    },
+    "totalPages": 22,
+    "totalElements": 106,
+    "last": false,
+    "size": 5,
+    "number": 0,
+    "sort": {
+        "sorted": false,
+        "empty": true,
+        "unsorted": true
+    },
+    "numberOfElements": 5,
+    "first": true,
+    "empty": false
+}
 ```
 
 
