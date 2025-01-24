@@ -194,37 +194,30 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
     </tr>
     <tr><td><a href="https://www.npmjs.com/package/@mui/x-date-pickers" target="_blank">@mui/x-date-pickers</a></td><td>^7.21.0</td>  
     </tr>
-    <tr><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@popperjs/core</a></td><td>^2.11.8</td></tr>
+    <tr><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@popperjs/core</a></td><td>^2.11.8</td>
+    </tr>
     <tr id="reactpdfviewer">
-      <td>@react-pdf-viewer/core</td>
-      <td>^3.12.0</td>
-      <td><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">Link</a></td>
+      <td><a href="https://www.npmjs.com/package/@popperjs/core" target="_blank">@react-pdf-viewer/core</a></td>
+      <td>^3.12.0</td>   
     </tr>
     <tr id="reactpdfviewerdefaultlayout">
-      <td>@react-pdf-viewer/default-layout</td>
-      <td>^3.12.0</td>
-      <td><a href="https://www.npmjs.com/package/@react-pdf-viewer/default-layout" target="_blank">Link</a></td>
+      <td><a href="https://www.npmjs.com/package/@react-pdf-viewer/default-layout" target="_blank">@react-pdf-viewer/default-layout</a></td>
+      <td>^3.12.0</td> 
     </tr>
-    <tr><td>@react-pdf/renderer</td><td>^3.4.5</td>
-     <td><a href="https://www.npmjs.com/package/@react-pdf/renderer" target="_blank">Link</a></td>
+    <tr>  <td><a href="https://www.npmjs.com/package/@react-pdf/renderer" target="_blank">@react-pdf/renderer</a></td><td>^3.4.5</td>
     </tr>
     <tr id="reduxjstoolkit">
-      <td>@reduxjs/toolkit</td>
-      <td>^2.5.0</td>
-       <td><a href="https://www.npmjs.com/package/@reduxjs/toolkit" target="_blank">Link</a></td>
+      <td><a href="https://www.npmjs.com/package/@reduxjs/toolkit" target="_blank">@reduxjs/toolkit</a></td>
+      <td>^2.5.0</td>  
     </tr>
-    <tr><td>@stomp/stompjs</td><td>^7.0.0</td>
-     <td><a href="https://www.npmjs.com/package/@stomp/stompjs" target="_blank">Link</a></td>
+    <tr><td><a href="https://www.npmjs.com/package/@stomp/stompjs" target="_blank">@stomp/stompjs</a></td><td>^7.0.0</td>
+      </tr>
+    <tr><td><a href="https://www.npmjs.com/package/antd" target="_blank">Antd</a></td><td>^5.21.5</td>
     </tr>
-    <tr><td>Antd</td><td>^5.21.5</td>
-    <td><a href="https://www.npmjs.com/package/antd" target="_blank">Link</a></td>
-    </tr>
-    <tr><td>Aos</td><td>^2.3.4</td>
-    <td><a href="https://www.npmjs.com/package/aos" target="_blank">Link</a></td></tr>
+    <tr><td><a href="https://www.npmjs.com/package/aos" target="_blank">Aos</a></td></tr><td>^2.3.4</td>
     <tr id="axios">
-      <td>Axios</td>
-      <td>^1.6.8</td>
-      <td><a href="https://www.npmjs.com/package/axios" target="_blank">Link</a></td>
+      <td><a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a></td>
+      <td>^1.6.8</td> 
     </tr>
     <tr><td>Bootstrap</td><td>^5.3.3</td></tr>
     <tr><td>canvas-confetti</td><td>^1.9.3</td></tr>
