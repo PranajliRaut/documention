@@ -493,44 +493,52 @@ const data = await response.json();
 
 ```
 ```
-# Key Parts of the Code
 
-## 1. `fetch()` Function:
+# Employee Management API
 
-- `fetch()` is used to make HTTP requests in JavaScript. In this case, it's making a `POST` request to a URL.
-  
-- **URL**: The URL to which the `POST` request is being made is constructed dynamically using template literals:
-  
-  ```javascript
-  `${API_BASE_URL}/add-employee/${employeeId}/${userType}`
+This API defines endpoints for managing employee data in a system. It supports operations like adding, updating, deleting, and retrieving employee details.
 
-  - `API_BASE_URL` is presumably a constant or variable containing the base URL for the API (e.g., `https://api.example.com`).
+## 1. POST (Add Employee)
+**Purpose:** To add a new employee to the system.  
+**Request:**  
+It makes a POST request to a URL that includes the `employeeId` and `userType` (e.g., role of the employee, like "manager", "staff", etc.). These are dynamic values, meaning they are replaced by actual data when the request is made.  
+**Body:**  
+The body of the request contains `formDataToSend`, which is the data of the new employee (e.g., name, email, department, etc.).  
+**Example URL:**  
+`/add-employee/123/manager`  
+(Where `123` is the `employeeId` and `manager` is the `userType`).  
+**Outcome:**  
+The server processes this data and adds the new employee to the system.
 
-- `employeeId` and `userType` are dynamic values (likely variables or constants) that will be included in the URL path as part of the request.
+## 2. PUT (Update Employee)
+**Purpose:** To update an existing employee's details.  
+**Request:**  
+It makes a PUT request to a URL that includes the `employeeId` to specify which employee to update.  
+**Body:**  
+The request body contains `formDataToSend`, which includes the updated employee details (e.g., updated name, email, etc.).  
+**Example URL:**  
+`/update-employee/123`  
+(Where `123` is the `employeeId` of the employee to be updated).  
+**Outcome:**  
+The server updates the employee's data with the new information provided in the request body.
 
-- The final URL would look something like `https://api.example.com/add-employee/123/manager`, where `123` is the `employeeId` and `manager` is the `userType`.
-## 2. Request Method:
+## 3. DELETE (Delete Employee)
+**Purpose:** To delete an existing employee from the system.  
+**Request:**  
+It makes a DELETE request to a URL that includes the `employeeId` of the employee to be deleted.  
+**Example URL:**  
+`/delete-employee/123`  
+(Where `123` is the `employeeId` of the employee to be deleted).  
+**Outcome:**  
+The server removes the employee's data from the system.
 
-- The request method is specified as `"POST"`, indicating that data is being sent to the server (e.g., for creating a new employee record).
-
-## 3. Request Body (`formDataToSend`):
-
-- The body of the request is where the data (likely form data or an object) is included. This could be a `FormData` object, a JSON object, or other types of data, depending on how it's structured.
-  
-- The variable `formDataToSend` would contain this data, which is sent to the server as part of the `POST` request.
-
-
-## 4. `await`
-- The `await` keyword is used because `fetch()` returns a Promise.
-- The code is inside an `async` function, and `await` pauses the execution of the function until the Promise resolves (or rejects).
-- This ensures that the `response` variable will contain the result of the POST request after it is completed.
-
-## 5. Error Handling
-- The `try...catch` block is used to handle any errors that might occur during the execution of the code in the `try` block.
-- If the `fetch()` request fails or an error occurs during the execution of the `await` operation, the `catch` block will be triggered.
-- Inside the `catch` block, the message **"Error occurred while adding employee data."** is logged to the console, signaling that something went wrong.
+## 4. GET (Get Employee)
+**Purpose:** To retrieve the details of a specific employee.  
+**Request:**  
+It makes a GET request to a URL that includes the `employeeId` of the employee whose details are to be fetched.  
 
 ```
+
 ```
 # Fetch Employee Team Details with `useEffect`
 
