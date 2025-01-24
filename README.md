@@ -300,51 +300,51 @@ A `package.json` file is a fundamental component in Node.js projects. It serves 
   </thead>
   <tbody>
     <tr id="eslint">
-      <td>eslint</td>
+      <td><a href="https://eslint.org/" target="_blank">eslint Documentation</a></td>
       <td>^8.57.0</td>
     </tr>
     <tr id="vite">
-      <td>Vite</td>
+      <td><a href="https://vitejs.dev/" target="_blank">Vite Documentation</a></td>
       <td>^5.3.3</td>
     </tr>
     <tr id="autoprefixer">
-      <td>Autoprefixer</td>
+      <td><a href="https://github.com/postcss/autoprefixer" target="_blank">Autoprefixer Documentation</a></td>
       <td>^10.4.19</td>
     </tr>
     <tr id="typescript">
-      <td>typescript</td>
+      <td><a href="https://www.typescriptlang.org/" target="_blank">TypeScript Documentation</a> </td>
       <td>^4.7.4</td>
     </tr>
     <tr>
-      <td>@types/react</td>
+      <td><a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react" target="_blank">@types/react on GitHub</a></td>
       <td>^18.2.66</td>
     </tr>
     <tr>
-      <td>@types/react-dom</td>
+      <td><a href="https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/react-dom" target="_blank">@types/react-dom on GitHub</a></td>
       <td>^18.2.22</td>
     </tr>
     <tr>
-      <td>@vitejs/plugin-react</td>
+      <td><a href="https://github.com/vitejs/vite/tree/main/packages/plugin-react" target="_blank">@vitejs/plugin-react on GitHub</a></td>
       <td>^4.2.1</td>
     </tr>
     <tr>
-      <td>eslint-plugin-react</td>
+      <td> <a href="https://github.com/yannickcr/eslint-plugin-react" target="_blank">eslint-plugin-react on GitHub</a></td>
       <td>^8.57.0</td>
     </tr>
     <tr>
-      <td>eslint-plugin-react-hooks</td>
+      <td><a href="https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-hooks" target="_blank">eslint-plugin-react-hooks on GitHub</a></td>
       <td>^4.6.0</td>
     </tr>
     <tr>
-      <td>eslint-plugin-react-refresh</td>
+      <td><a href="https://github.com/facebook/react/tree/main/packages/eslint-plugin-react-refresh" target="_blank">eslint-plugin-react-refresh on GitHub</a> </td>
       <td>^0.4.6</td>
     </tr>
     <tr>
-      <td>Postcss</td>
+      <td><a href="https://github.com/postcss/postcss" target="_blank">Postcss Documentation</a></td>
       <td>^8.4.39</td>
     </tr>
     <tr id="tailwindcss">
-      <td>tailwindcss</td>
+      <td><a href="https://tailwindcss.com/" target="_blank">Tailwind CSS Documentation</a></td>
       <td>^2.1.2</td>
     </tr>
   </tbody>
